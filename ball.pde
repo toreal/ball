@@ -14,7 +14,7 @@ float a = 0.05;
 void setup() {
 size (800, 600);
 smooth();
-img = loadImage("a.jpg");
+img = loadImage("data/a.jpg");
 ellipseMode (CENTER);
 for (int i=0; i<20; i++) {
 bugx[i] = random (0, width);
